@@ -1,0 +1,1141 @@
+[
+  {
+    "id": "general-surveys",
+    "name": "General Surveys",
+    "name_zh": "综合综述",
+    "number": "00",
+    "part": "综合入口（General Surveys）",
+    "children": [
+      {
+        "id": "comprehensive-surveys",
+        "name": "Comprehensive LLM Surveys",
+        "name_zh": "大模型综合综述",
+        "number": "0.1",
+        "recommended": [
+          "2303.18223",
+          "doi:10.1109/access.2025.3573955",
+          "2402.06196",
+          "2304.13712",
+          "2401.02038"
+        ]
+      },
+      {
+        "id": "history",
+        "name": "History and Evolution",
+        "name_zh": "发展历史与演进",
+        "number": "0.2",
+        "recommended": [
+          "2302.09419",
+          "2402.06853",
+          "2303.04226"
+        ]
+      },
+      {
+        "id": "survey-of-surveys",
+        "name": "Survey of Surveys & Bibliometrics",
+        "name_zh": "综述的综述与文献计量",
+        "number": "0.3",
+        "recommended": [
+          "2409.18991",
+          "2307.10700",
+          "2304.02020",
+          "doi:10.1109/access.2025.3589319",
+          "2403.16303"
+        ]
+      }
+    ],
+    "recommended": [
+      "2303.18223",
+      "2307.10700",
+      "2302.09419",
+      "2409.18991",
+      "2304.13712"
+    ]
+  },
+  {
+    "id": "foundations",
+    "name": "Foundations & Architectures",
+    "name_zh": "基础与架构",
+    "number": "01",
+    "part": "PART I — Model Foundations（模型本体）",
+    "children": [
+      {
+        "id": "transformer-attention",
+        "name": "Transformer & Attention",
+        "name_zh": "Transformer 与注意力机制",
+        "number": "1.1",
+        "recommended": [
+          "2106.04554",
+          "2311.17633",
+          "2409.03752",
+          "2311.12351",
+          "2103.14636"
+        ]
+      },
+      {
+        "id": "architectures",
+        "name": "Model Architectures",
+        "name_zh": "模型架构，如 MoE、SSM",
+        "number": "1.2",
+        "recommended": [
+          "2503.07137",
+          "2506.13759",
+          "2502.11453",
+          "2407.06204"
+        ]
+      },
+      {
+        "id": "tokenization-representation",
+        "name": "Tokenization & Representation",
+        "name_zh": "分词与表示学习",
+        "number": "1.3",
+        "recommended": [
+          "2412.12591",
+          "2502.17601",
+          "2507.01925",
+          "2412.09165"
+        ]
+      },
+      {
+        "id": "scaling-laws",
+        "name": "Scaling Laws & Emergence",
+        "name_zh": "规模定律与涌现能力",
+        "number": "1.4",
+        "recommended": [
+          "2503.05788",
+          "doi:10.18653/v1/2025.acl-long.140"
+        ]
+      },
+      {
+        "id": "model-families",
+        "name": "Model Families & Open-Source LLMs",
+        "name_zh": "模型家族与开源大模型",
+        "number": "1.5",
+        "recommended": [
+          "2310.12321",
+          "2505.00551",
+          "2307.14107",
+          "doi:10.31219/osf.io/m6gcn",
+          "2308.14149"
+        ]
+      }
+    ],
+    "recommended": [
+      "2106.04554",
+      "2506.13759",
+      "2503.07137",
+      "2412.12591",
+      "2308.14149"
+    ]
+  },
+  {
+    "id": "training",
+    "name": "Data, Training & Adaptation",
+    "name_zh": "数据、训练与适应",
+    "number": "02",
+    "part": "PART I — Model Foundations（模型本体）",
+    "children": [
+      {
+        "id": "data-management",
+        "name": "Data Management & Selection",
+        "name_zh": "数据管理与筛选",
+        "number": "2.1",
+        "recommended": [
+          "2312.01700",
+          "2502.14425",
+          "2505.21598",
+          "2402.16827",
+          "2402.05123"
+        ]
+      },
+      {
+        "id": "synthetic-data",
+        "name": "Synthetic Data & Data Augmentation",
+        "name_zh": "合成数据与数据增强",
+        "number": "2.2",
+        "recommended": [
+          "2406.15126",
+          "2501.18845",
+          "2405.13003",
+          "2503.14023",
+          "2412.02980"
+        ]
+      },
+      {
+        "id": "pre-training",
+        "name": "Pre-training",
+        "name_zh": "预训练",
+        "number": "2.3",
+        "recommended": [
+          "2302.09419",
+          "2003.08271",
+          "2407.20018",
+          "doi:10.1631/fitee.2300710",
+          "2111.01243"
+        ]
+      },
+      {
+        "id": "post-training",
+        "name": "Post-training & Instruction Tuning",
+        "name_zh": "后训练与指令微调",
+        "number": "2.4",
+        "recommended": [
+          "2503.06072",
+          "doi:10.18653/v1/2025.acl-long.140",
+          "2308.10792",
+          "2502.21321",
+          "2311.08172"
+        ]
+      },
+      {
+        "id": "fine-tuning",
+        "name": "Fine-tuning & PEFT",
+        "name_zh": "微调与参数高效微调",
+        "number": "2.5",
+        "recommended": [
+          "2403.14608",
+          "2503.12016",
+          "2303.15647",
+          "2312.12148",
+          "2407.11046"
+        ]
+      },
+      {
+        "id": "preference-alignment",
+        "name": "Reinforcement Learning & Preference Alignment",
+        "name_zh": "强化学习与偏好对齐",
+        "number": "2.6",
+        "recommended": [
+          "2309.15025",
+          "2505.02666",
+          "2503.14504",
+          "2406.11191",
+          "2406.01252"
+        ]
+      },
+      {
+        "id": "continual-learning",
+        "name": "Continual Learning",
+        "name_zh": "持续学习",
+        "number": "2.7",
+        "recommended": [
+          "2402.01364",
+          "2503.01887",
+          "2406.06391",
+          "2404.16789"
+        ]
+      },
+      {
+        "id": "model-merging",
+        "name": "Model Merging",
+        "name_zh": "模型融合",
+        "number": "2.8",
+        "recommended": [
+          "2408.07666",
+          "2407.06089",
+          "2503.06072",
+          "2412.09165",
+          "2311.15766"
+        ]
+      },
+      {
+        "id": "machine-unlearning",
+        "name": "Machine Unlearning",
+        "name_zh": "机器遗忘",
+        "number": "2.9",
+        "recommended": [
+          "2311.15766",
+          "2403.15779",
+          "2404.02062",
+          "2404.01206"
+        ]
+      }
+    ],
+    "recommended": [
+      "2503.06072",
+      "2408.07666",
+      "2402.16827",
+      "2403.14608"
+    ]
+  },
+  {
+    "id": "prompting-context",
+    "name": "Prompting & Context",
+    "name_zh": "提示与上下文",
+    "number": "03",
+    "part": "PART II — Capability Enhancement（能力增强）",
+    "children": [
+      {
+        "id": "prompt-engineering",
+        "name": "Prompt Engineering",
+        "name_zh": "提示工程",
+        "number": "3.1",
+        "recommended": [
+          "2406.06608",
+          "2505.11665",
+          "2402.07927",
+          "2404.01077",
+          "2310.04959"
+        ]
+      },
+      {
+        "id": "in-context-learning",
+        "name": "In-Context Learning",
+        "name_zh": "上下文学习",
+        "number": "3.2",
+        "recommended": [
+          "2301.00234",
+          "2401.11624",
+          "2309.13205"
+        ]
+      },
+      {
+        "id": "long-context",
+        "name": "Long-Context Modeling",
+        "name_zh": "长上下文建模",
+        "number": "3.3",
+        "recommended": [
+          "2402.02244",
+          "2405.11299",
+          "2311.12351",
+          "2312.17044",
+          "2401.07872"
+        ]
+      },
+      {
+        "id": "context-engineering",
+        "name": "Context Engineering",
+        "name_zh": "上下文工程",
+        "number": "3.4",
+        "recommended": [
+          "2409.13385",
+          "2410.12388"
+        ]
+      }
+    ],
+    "recommended": [
+      "2406.06608",
+      "2410.12388",
+      "2505.11665",
+      "2301.00234",
+      "2402.02244"
+    ]
+  },
+  {
+    "id": "reasoning",
+    "name": "Reasoning with LLMs",
+    "name_zh": "大模型推理",
+    "number": "04",
+    "part": "PART II — Capability Enhancement（能力增强）",
+    "children": [
+      {
+        "id": "chain-of-thought",
+        "name": "Chain of Thought",
+        "name_zh": "思维链",
+        "number": "4.1",
+        "recommended": [
+          "2503.09567",
+          "2309.15402",
+          "2310.04959",
+          "2311.11797"
+        ]
+      },
+      {
+        "id": "search-reasoning",
+        "name": "Search-based Reasoning",
+        "name_zh": "基于搜索的推理",
+        "number": "4.2",
+        "recommended": [
+          "2501.11223",
+          "2501.10069"
+        ]
+      },
+      {
+        "id": "reasoning-training",
+        "name": "Reasoning-Oriented Training",
+        "name_zh": "面向推理的训练",
+        "number": "4.3",
+        "recommended": [
+          "2502.21321",
+          "2501.09686",
+          "2504.21277",
+          "2501.11223"
+        ]
+      },
+      {
+        "id": "test-time-scaling",
+        "name": "Test-Time Scaling",
+        "name_zh": "测试时计算扩展",
+        "number": "4.4",
+        "recommended": [
+          "2412.14352",
+          "2507.02076",
+          "2501.10069",
+          "2503.09567"
+        ]
+      },
+      {
+        "id": "verification-self-correction",
+        "name": "Verification & Self-Correction",
+        "name_zh": "验证与自我纠错",
+        "number": "4.5",
+        "recommended": [
+          "2308.03188",
+          "2502.14333",
+          "2407.14507"
+        ]
+      },
+      {
+        "id": "mathematical-logical-reasoning",
+        "name": "Mathematical & Logical Reasoning",
+        "name_zh": "数学与逻辑推理",
+        "number": "4.6",
+        "recommended": [
+          "2402.00157",
+          "2503.17726",
+          "2502.09100",
+          "2412.11936",
+          "2312.07622"
+        ]
+      }
+    ],
+    "recommended": [
+      "2212.10403",
+      "2504.09037",
+      "2507.02076",
+      "2503.09567",
+      "2501.11223"
+    ]
+  },
+  {
+    "id": "knowledge-rag",
+    "name": "Knowledge & RAG",
+    "name_zh": "知识与检索增强",
+    "number": "05",
+    "part": "PART II — Capability Enhancement（能力增强）",
+    "children": [
+      {
+        "id": "rag",
+        "name": "Retrieval-Augmented Generation",
+        "name_zh": "检索增强生成",
+        "number": "5.1",
+        "recommended": [
+          "2312.10997",
+          "2504.14891",
+          "2408.08921",
+          "2501.09136",
+          "2405.07437"
+        ]
+      },
+      {
+        "id": "retrieval-embedding",
+        "name": "Information Retrieval & Embedding",
+        "name_zh": "信息检索与嵌入模型",
+        "number": "5.2",
+        "recommended": [
+          "2308.07107",
+          "2412.17558",
+          "2412.12591",
+          "2402.01763",
+          "2401.11624"
+        ]
+      },
+      {
+        "id": "knowledge-graphs",
+        "name": "Knowledge Graphs & LLMs",
+        "name_zh": "知识图谱与大模型",
+        "number": "5.3",
+        "recommended": [
+          "2408.08921",
+          "2311.07914",
+          "2303.02411",
+          "2501.13958",
+          "2407.18470"
+        ]
+      },
+      {
+        "id": "knowledge-editing",
+        "name": "Knowledge Editing",
+        "name_zh": "知识编辑",
+        "number": "5.4",
+        "recommended": [
+          "2310.16218",
+          "2305.13172",
+          "2311.15766"
+        ]
+      },
+      {
+        "id": "knowledge-representation",
+        "name": "Knowledge Representation & Acquisition",
+        "name_zh": "知识表示与获取",
+        "number": "5.5",
+        "recommended": [
+          "2311.05876",
+          "2412.12472",
+          "2502.12598",
+          "2310.16570",
+          "2501.13947"
+        ]
+      }
+    ],
+    "recommended": [
+      "2312.10997",
+      "2507.09477",
+      "2308.07107",
+      "2310.16218",
+      "2408.08921"
+    ]
+  },
+  {
+    "id": "agents",
+    "name": "LLM Agents",
+    "name_zh": "大模型智能体",
+    "number": "06",
+    "part": "PART II — Capability Enhancement（能力增强）",
+    "children": [
+      {
+        "id": "agent-architectures",
+        "name": "Agent Architectures",
+        "name_zh": "智能体架构",
+        "number": "6.1",
+        "recommended": [
+          "2309.07864",
+          "2406.05804",
+          "2308.11432",
+          "2501.09136",
+          "2412.13501"
+        ]
+      },
+      {
+        "id": "agent-planning",
+        "name": "Planning & Decision Making",
+        "name_zh": "规划与决策",
+        "number": "6.2",
+        "recommended": [
+          "2303.04129",
+          "2402.02716",
+          "2503.18971",
+          "2401.03428",
+          "2308.11432"
+        ]
+      },
+      {
+        "id": "agent-memory",
+        "name": "Memory & Experience",
+        "name_zh": "记忆与经验",
+        "number": "6.3",
+        "recommended": [
+          "2308.11432",
+          "2404.13501",
+          "2504.15965",
+          "doi:10.1109/access.2025.3589241",
+          "2504.01990"
+        ]
+      },
+      {
+        "id": "tool-use",
+        "name": "Tool Use & Action",
+        "name_zh": "工具使用与行动",
+        "number": "6.4",
+        "recommended": [
+          "2405.17935",
+          "2506.05364",
+          "2412.13501",
+          "2302.07842",
+          "2403.15452"
+        ]
+      },
+      {
+        "id": "multi-agent",
+        "name": "Multi-Agent Systems",
+        "name_zh": "多智能体系统",
+        "number": "6.5",
+        "recommended": [
+          "2402.01680",
+          "2502.14321",
+          "2404.04834",
+          "2412.03563",
+          "2504.01990"
+        ]
+      },
+      {
+        "id": "self-evolving-agents",
+        "name": "Self-Evolving Agents",
+        "name_zh": "自进化智能体",
+        "number": "6.6",
+        "recommended": [
+          "2504.01990",
+          "2404.14387",
+          "2503.12434"
+        ]
+      },
+      {
+        "id": "human-agent-interaction",
+        "name": "Human-Agent Interaction",
+        "name_zh": "人机交互与协作",
+        "number": "6.7",
+        "recommended": [
+          "2406.01171",
+          "2505.00753",
+          "2407.11484",
+          "2309.07864",
+          "2411.14491"
+        ]
+      }
+    ],
+    "recommended": [
+      "2308.11432",
+      "2404.13501",
+      "2503.22458",
+      "2402.01680",
+      "2405.17935"
+    ]
+  },
+  {
+    "id": "evaluation",
+    "name": "Evaluation & Benchmarks",
+    "name_zh": "评测与基准",
+    "number": "07",
+    "part": "PART III — Quality & Systems（质量与系统）",
+    "children": [
+      {
+        "id": "capabilities-limitations",
+        "name": "Capabilities & Limitations",
+        "name_zh": "模型能力与局限",
+        "number": "7.1",
+        "recommended": [
+          "2503.05788",
+          "2308.07902",
+          "2412.12472",
+          "2501.09959",
+          "2501.04040"
+        ]
+      },
+      {
+        "id": "evaluation-methodologies",
+        "name": "Evaluation Methodologies",
+        "name_zh": "评测方法",
+        "number": "7.2",
+        "recommended": [
+          "2307.03109",
+          "2504.18838",
+          "2502.08796",
+          "2407.04069",
+          "2405.07437"
+        ]
+      },
+      {
+        "id": "benchmarks-datasets",
+        "name": "Benchmarks & Datasets",
+        "name_zh": "基准与数据集",
+        "number": "7.3",
+        "recommended": [
+          "2408.08632",
+          "2404.05399",
+          "2406.13232",
+          "2503.16416",
+          "2406.04244"
+        ]
+      },
+      {
+        "id": "llm-judges",
+        "name": "LLMs as Judges",
+        "name_zh": "大模型评判",
+        "number": "7.4",
+        "recommended": [
+          "2412.05579",
+          "2411.16594",
+          "2411.15594",
+          "2401.07103",
+          "2501.10326"
+        ]
+      },
+      {
+        "id": "agent-evaluation",
+        "name": "Agent Evaluation",
+        "name_zh": "智能体评测",
+        "number": "7.5",
+        "recommended": [
+          "2503.16416",
+          "2503.22458",
+          "2505.05283",
+          "2502.13012",
+          "2506.11102"
+        ]
+      }
+    ],
+    "recommended": [
+      "2307.03109",
+      "2504.18838",
+      "2506.11102",
+      "2412.05579",
+      "2408.08632"
+    ]
+  },
+  {
+    "id": "trustworthiness",
+    "name": "Understanding & Trustworthiness",
+    "name_zh": "模型理解与可信性",
+    "number": "08",
+    "part": "PART III — Quality & Systems（质量与系统）",
+    "children": [
+      {
+        "id": "interpretability",
+        "name": "Interpretability & Explainability",
+        "name_zh": "可解释性",
+        "number": "8.1",
+        "recommended": [
+          "2401.12874",
+          "2504.08001",
+          "2309.01029",
+          "2412.02104",
+          "2311.03731"
+        ]
+      },
+      {
+        "id": "mechanistic-interpretability",
+        "name": "Mechanistic Interpretability",
+        "name_zh": "机制可解释性",
+        "number": "8.2",
+        "recommended": [
+          "2409.03752",
+          "2407.02646",
+          "2503.05613"
+        ]
+      },
+      {
+        "id": "hallucination-factuality",
+        "name": "Hallucination & Factuality",
+        "name_zh": "幻觉与事实性",
+        "number": "8.3",
+        "recommended": [
+          "2311.05232",
+          "2501.00269",
+          "2401.01313",
+          "2310.07521",
+          "2404.18930"
+        ]
+      },
+      {
+        "id": "uncertainty-calibration",
+        "name": "Uncertainty & Calibration",
+        "name_zh": "不确定性与校准",
+        "number": "8.4",
+        "recommended": [
+          "2311.08298",
+          "2503.15850",
+          "2410.15326",
+          "2409.18786"
+        ]
+      },
+      {
+        "id": "safety-robustness",
+        "name": "Safety & Robustness",
+        "name_zh": "安全与鲁棒性",
+        "number": "8.5",
+        "recommended": [
+          "2407.18369",
+          "2506.11094",
+          "2305.11391",
+          "2504.01990",
+          "2402.09283"
+        ]
+      },
+      {
+        "id": "security-privacy",
+        "name": "Security & Privacy",
+        "name_zh": "信息安全与隐私",
+        "number": "8.6",
+        "recommended": [
+          "2402.00888",
+          "2403.05156",
+          "2411.09523",
+          "2408.05212",
+          "2312.02003"
+        ]
+      },
+      {
+        "id": "fairness-bias-ethics",
+        "name": "Fairness, Bias & Ethics",
+        "name_zh": "公平性、偏见与伦理",
+        "number": "8.7",
+        "recommended": [
+          "2404.01349",
+          "2511.01864",
+          "2404.11457",
+          "2309.00770",
+          "2405.13025"
+        ]
+      },
+      {
+        "id": "detection-watermarking",
+        "name": "Content Detection & Watermarking",
+        "name_zh": "内容检测与水印",
+        "number": "8.8",
+        "recommended": [
+          "2310.14724",
+          "2406.11106",
+          "2312.07913",
+          "2303.07205",
+          "2309.07689"
+        ]
+      }
+    ],
+    "recommended": [
+      "2311.05232",
+      "2506.11111",
+      "2407.02646",
+      "2401.12874",
+      "2404.01349"
+    ]
+  },
+  {
+    "id": "inference-systems",
+    "name": "Inference, Efficiency & Systems",
+    "name_zh": "推理执行、效率与系统",
+    "number": "09",
+    "part": "PART III — Quality & Systems（质量与系统）",
+    "children": [
+      {
+        "id": "decoding",
+        "name": "Decoding Methods",
+        "name_zh": "解码方法",
+        "number": "9.1",
+        "recommended": [
+          "2401.07851",
+          "2404.14897",
+          "2201.05337",
+          "2412.14352"
+        ]
+      },
+      {
+        "id": "efficient-inference",
+        "name": "Efficient Inference",
+        "name_zh": "高效推理",
+        "number": "9.2",
+        "recommended": [
+          "2405.13019",
+          "2412.19442",
+          "2401.07851",
+          "2407.18003",
+          "2312.15234"
+        ]
+      },
+      {
+        "id": "compression-quantization",
+        "name": "Model Compression & Quantization",
+        "name_zh": "模型压缩与量化",
+        "number": "9.3",
+        "recommended": [
+          "2308.07633",
+          "doi:10.1109/access.2025.3568702",
+          "2409.16694",
+          "2401.15347",
+          "2402.09748"
+        ]
+      },
+      {
+        "id": "knowledge-distillation",
+        "name": "Knowledge Distillation",
+        "name_zh": "知识蒸馏",
+        "number": "9.4",
+        "recommended": [
+          "2402.13116",
+          "2408.10210",
+          "2407.01885"
+        ]
+      },
+      {
+        "id": "small-models",
+        "name": "Small Language Models",
+        "name_zh": "小语言模型",
+        "number": "9.5",
+        "recommended": [
+          "2409.15790",
+          "2503.10665",
+          "2411.03350",
+          "2501.05465",
+          "2410.20011"
+        ]
+      },
+      {
+        "id": "serving-deployment",
+        "name": "LLM Serving & Deployment",
+        "name_zh": "模型服务与部署",
+        "number": "9.6",
+        "recommended": [
+          "2312.15234",
+          "2407.12391",
+          "doi:10.1109/iccae59995.2024.10569285",
+          "2405.11299"
+        ]
+      },
+      {
+        "id": "hardware-systems",
+        "name": "Hardware & Training/Inference Systems",
+        "name_zh": "硬件与训练推理系统",
+        "number": "9.7",
+        "recommended": [
+          "2401.09890",
+          "2407.20018",
+          "2406.08413",
+          "2402.16363",
+          "2409.16694"
+        ]
+      },
+      {
+        "id": "model-routing-ensemble",
+        "name": "Model Routing & Ensemble",
+        "name_zh": "模型路由与集成",
+        "number": "9.8",
+        "recommended": [
+          "2502.00409",
+          "2502.18036",
+          "2407.06089",
+          "2503.13505",
+          "2505.07460"
+        ]
+      }
+    ],
+    "recommended": [
+      "2312.03863",
+      "2502.00409",
+      "2407.20018",
+      "2312.15234",
+      "2401.15347"
+    ]
+  },
+  {
+    "id": "multimodal-multilingual",
+    "name": "Multimodal & Multilingual LLMs",
+    "name_zh": "多模态与多语言",
+    "number": "10",
+    "part": "PART IV — Extensions & Applications（扩展与应用）",
+    "children": [
+      {
+        "id": "vision-language",
+        "name": "Vision-Language Models",
+        "name_zh": "视觉语言模型",
+        "number": "10.1",
+        "recommended": [
+          "2411.06284",
+          "2312.17432",
+          "2311.08172",
+          "2311.16673"
+        ]
+      },
+      {
+        "id": "audio-speech",
+        "name": "Audio & Speech LLMs",
+        "name_zh": "音频与语音大模型",
+        "number": "10.2",
+        "recommended": [
+          "2308.12792",
+          "2410.03751",
+          "2501.15177",
+          "2505.15957"
+        ]
+      },
+      {
+        "id": "omni-modal",
+        "name": "Omni-Modal Models",
+        "name_zh": "全模态模型",
+        "number": "10.3",
+        "recommended": [
+          "2412.11694"
+        ]
+      },
+      {
+        "id": "multilingual",
+        "name": "Multilingual & Cross-Lingual LLMs",
+        "name_zh": "多语言与跨语言大模型",
+        "number": "10.4",
+        "recommended": [
+          "2411.11072",
+          "2502.09457",
+          "2404.00929",
+          "2408.15040",
+          "2405.10936"
+        ]
+      },
+      {
+        "id": "embodied",
+        "name": "Embodied Intelligence",
+        "name_zh": "具身智能",
+        "number": "10.5",
+        "recommended": [
+          "2311.07226",
+          "2405.14093",
+          "2502.03814",
+          "2404.00938"
+        ]
+      }
+    ],
+    "recommended": [
+      "2306.13549",
+      "2505.15957",
+      "2405.14093",
+      "2411.11072",
+      "2308.12792"
+    ]
+  },
+  {
+    "id": "applications",
+    "name": "LLM Applications",
+    "name_zh": "大模型应用",
+    "number": "11",
+    "part": "PART IV — Extensions & Applications（扩展与应用）",
+    "children": [
+      {
+        "id": "code-software",
+        "name": "LLMs for Code & Software Engineering",
+        "name_zh": "代码与软件工程",
+        "number": "11.1",
+        "recommended": [
+          "2310.03533",
+          "2505.05283",
+          "2212.09420",
+          "2307.07221",
+          "2409.02977"
+        ]
+      },
+      {
+        "id": "science",
+        "name": "LLMs for Science",
+        "name_zh": "科学研究",
+        "number": "11.2",
+        "recommended": [
+          "2406.10833",
+          "2505.13259",
+          "2505.16094",
+          "2501.04306",
+          "2501.10326"
+        ]
+      },
+      {
+        "id": "healthcare",
+        "name": "LLMs for Healthcare",
+        "name_zh": "医疗健康",
+        "number": "11.3",
+        "recommended": [
+          "2405.13055",
+          "doi:10.1186/s12911-025-02954-4",
+          "doi:10.1093/jamia/ocaf008",
+          "2409.00097",
+          "2401.02984"
+        ]
+      },
+      {
+        "id": "education",
+        "name": "LLMs for Education",
+        "name_zh": "教育",
+        "number": "11.4",
+        "recommended": [
+          "2405.13001",
+          "2506.21818",
+          "2303.13379",
+          "2311.15198",
+          "doi:10.3390/healthcare11060887"
+        ]
+      },
+      {
+        "id": "finance-law",
+        "name": "LLMs for Finance & Law",
+        "name_zh": "金融与法律",
+        "number": "11.5",
+        "recommended": [
+          "2311.10723",
+          "2506.04290",
+          "2312.03718",
+          "2408.06361",
+          "2507.07748"
+        ]
+      },
+      {
+        "id": "information-access",
+        "name": "LLMs for Information Access",
+        "name_zh": "信息获取与推荐",
+        "number": "11.6",
+        "recommended": [
+          "2305.19860",
+          "2404.16924",
+          "2503.05659",
+          "2308.07107",
+          "2311.12338"
+        ]
+      },
+      {
+        "id": "nlp-tasks",
+        "name": "LLMs for NLP Tasks",
+        "name_zh": "自然语言处理任务",
+        "number": "11.7",
+        "recommended": [
+          "2111.01243",
+          "2406.11289",
+          "2504.01919",
+          "2312.17617",
+          "2402.18013"
+        ]
+      },
+      {
+        "id": "other-domains",
+        "name": "LLMs for Other Domains",
+        "name_zh": "其他领域应用",
+        "number": "11.8",
+        "recommended": [
+          "2503.21411",
+          "2501.06932",
+          "2402.18659",
+          "2311.12320",
+          "2402.14558"
+        ]
+      },
+      {
+        "id": "graph-learning",
+        "name": "LLMs for Graph Learning",
+        "name_zh": "图学习",
+        "number": "11.9",
+        "recommended": [
+          "2412.12456",
+          "2402.05952",
+          "2404.14809",
+          "2502.08353",
+          "2505.18475"
+        ]
+      },
+      {
+        "id": "tabular-data",
+        "name": "LLMs for Tabular Data",
+        "name_zh": "表格数据",
+        "number": "11.10",
+        "recommended": [
+          "2402.17944",
+          "2402.05121",
+          "2402.08259",
+          "2408.10548",
+          "2406.08426"
+        ]
+      },
+      {
+        "id": "time-series",
+        "name": "LLMs for Time Series",
+        "name_zh": "时间序列",
+        "number": "11.11",
+        "recommended": [
+          "2402.01801",
+          "doi:10.1109/access.2025.3535782",
+          "2505.02583",
+          "2402.10350",
+          "2310.10196"
+        ]
+      }
+    ],
+    "recommended": [
+      "2310.03533",
+      "2505.18475",
+      "doi:10.1109/access.2025.3535782",
+      "2406.10833",
+      "2405.13055"
+    ]
+  }
+]
