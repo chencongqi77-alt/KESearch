@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+/workspace/
+/.venv/
+/build/
+/dist/
+/src/*.egg-info/
+__pycache__/
+*.pyc

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f8f8">
+  <title>综述精读 · KESearch</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/web/style.css">
+  <script type="module" src="/web/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到正文</a>
+  <header class="topbar">
+    <div class="brand"><strong lang="en">KESearch</strong><span>综述精读</span></div>
+    <div class="actions">
+      <button type="button" class="plain-button" id="library-button" aria-haspopup="dialog"><span data-icon="library"></span><span>综述记录</span></button>
+      <button type="button" class="primary-button" id="upload-button" aria-haspopup="dialog"><span data-icon="upload"></span><span>上传 PDF</span></button>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <div id="notice" role="status" hidden></div>
+    <section id="landing" class="landing">
+      <div class="landing-content"><p role="status">正在打开工作台…</p></div>
+    </section>
+    <div id="workspace" class="workspace" data-panel="body" hidden>
+      <nav class="mobile-panels" aria-label="阅读面板">
+        <button type="button" data-panel="toc">目录</button>
+        <button type="button" data-panel="body" aria-current="true">正文</button>
+        <button type="button" data-panel="refs">引用<span id="mobile-ref-count"></span></button>
+      </nav>
+      <aside class="side-pane outline-pane" aria-labelledby="outline-heading">
+        <div class="pane-heading"><h2 id="outline-heading"><span data-icon="outline"></span>目录</h2><span class="pane-meta" id="section-total"></span></div>
+        <nav id="outline" aria-label="综述目录" class="outline-scroll"></nav>
+      </aside>
+      <div id="body-pane" class="body-pane">
+        <article id="article"></article>
+      </div>
+      <aside class="side-pane reference-pane" aria-labelledby="references-heading">
+        <div class="pane-heading"><h2 id="references-heading"><span data-icon="references"></span>本节引用</h2><span id="reference-total" class="pane-meta"></span></div>
+        <div id="link-check" class="link-check" aria-live="polite" hidden></div>
+        <div id="reference-scroll" class="reference-scroll">
+          <p id="reference-section" class="reference-section"></p>
+          <div id="references"></div>
+        </div>
+      </aside>
+    </div>
+  </main>
+  <dialog id="upload-dialog" aria-labelledby="upload-heading">
+    <div class="dialog-head"><h2 id="upload-heading">上传综述</h2><button type="button" class="icon-button" data-close aria-label="关闭"><span data-icon="close"></span></button></div>
+    <p class="dialog-hint">选择一篇综述 PDF。MinerU 提取正文和插图，DeepSeek 生成综述总结。</p>
+    <button id="file-drop" type="button" class="file-drop">
+      <span class="file-drop-icon" data-icon="document"></span>
+      <strong id="file-name">选择或拖入 PDF</strong>
+      <span id="file-detail">最多 200 页，单个文件不超过 200 MiB</span>
+    </button>
+    <input type="file" id="file-input" accept="application/pdf,.pdf" hidden>
+    <p id="upload-error" class="form-error" role="alert" hidden></p>
+    <div class="dialog-actions"><button type="button" class="secondary-button" data-close>取消</button><button id="upload-submit" class="primary-button" type="button" disabled>上传并解析<span data-icon="arrow-right"></span></button></div>
+  </dialog>
+  <dialog id="library-dialog" aria-labelledby="library-heading">
+    <div class="dialog-head"><h2 id="library-heading">综述记录</h2><button type="button" class="icon-button" data-close aria-label="关闭"><span data-icon="close"></span></button></div>
+    <div id="library-list" class="library-list" aria-live="polite"></div>
+  </dialog>
+  <noscript>请启用 JavaScript 以使用综述精读工作台。</noscript>
+</body>
+</html>
